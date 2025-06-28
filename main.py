@@ -25,6 +25,6 @@ def mp3_to_text(mp3_file_path):
         return f"Could not request results from Google Speech Recognition service; {e}"
 
 # Example usage
-mp3_file_path = "/Users/omidshojaeianzanjani/Desktop/mp3totextproject/TRANSCRIPTION.mp3"
+mp3_file_path = "/Users/omidshojaeianzanjani/Desktop/programmings /Trae/mp3totextproject/transcript.mp3"
 text = mp3_to_text(mp3_file_path)
 print(text)
